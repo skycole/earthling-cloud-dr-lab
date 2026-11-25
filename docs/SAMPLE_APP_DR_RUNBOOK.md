@@ -1,10 +1,10 @@
-# Sample Enterprise Application DR Runbook (Sanitized Pattern)
+# Enterprise Application DR Runbook (Reference Pattern)
 
 **Scope:** Generic Tier-1 Enterprise Application (On-Premises Primary <-> AWS DR Region)  
 **Stack Pattern:** AWS Elastic Disaster Recovery (AWS DRS) + Oracle Data Guard / SQL Server AG + F5 Load Balancer + DNS/Route53 + ServiceNow Change & Evidence Tracking  
 **NIST 800-53 Alignment:** `CP-2` (Contingency Plan), `CP-4` (Contingency Plan Testing), `CP-9` (System Backup), `CM-8` (System Component Inventory), `IA-2` (Identity First), `SC-7` (Boundary / VIP Validation)
 
-> *Note: This is a sanitized, generic runbook template reflecting real enterprise failover/failback sequencing and gate discipline. No employer-specific application IDs, hostnames, IP addresses, or personnel names are included.*
+> *Note: This is a generic reference runbook template reflecting enterprise failover/failback sequencing and gate discipline.*
 
 ---
 
