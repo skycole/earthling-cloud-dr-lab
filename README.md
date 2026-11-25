@@ -108,9 +108,10 @@ See [docs/AWS_TO_AZURE_MAPPING.md](docs/AWS_TO_AZURE_MAPPING.md) for service par
 | Document | Purpose |
 |----------|---------|
 | [docs/AWS_TO_AZURE_MAPPING.md](docs/AWS_TO_AZURE_MAPPING.md) | Cross-cloud control translation |
+| [docs/SAMPLE_APP_DR_RUNBOOK.md](docs/SAMPLE_APP_DR_RUNBOOK.md) | Sanitized 9-phase On-Prem <-> AWS failover/failback runbook & Mermaid tower flow |
 | [docs/INCIDENT_RUNBOOK_AND_RCA.md](docs/INCIDENT_RUNBOOK_AND_RCA.md) | Deliberate drift drill and RCA |
 | [docs/DECISION_LOG.md](docs/DECISION_LOG.md) | Why Terraform, $0 scope, and production next steps |
-| [evidence/TEARDOWN_PROOF.md](evidence/TEARDOWN_PROOF.md) | Live session evidence template |
+| [evidence/TEARDOWN_PROOF.md](evidence/TEARDOWN_PROOF.md) | Live AWS apply, AC-6 break/fix, SCP finding, and $0 teardown proof |
 
 ## Cost guardrails
 
